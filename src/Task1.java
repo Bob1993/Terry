@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task_1 {
+public class Task1 {
 	static int i,j,k,re;//i,j定义当前指针位置,	k操作符数组当前所在位置,	re返回结果值
 	static char[] cs;//接收输入符
 	static int[][] source= {//源数据

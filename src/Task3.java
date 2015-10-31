@@ -15,9 +15,6 @@ public class Task3  extends Task2{
 	static char[] cs;
 	static boolean isPredict;
 	
-	/**
-	 * ��b o���и���4�ֲ�ͬ�Ĺ���ת��Ϊ4�ֽ������������taask2��ִ��
-	 */
 	public static char rule1(char c){
 		if (c== 'b') {
 			translatedString+= '+';
@@ -76,12 +73,6 @@ public class Task3  extends Task2{
 		}
 	}
 	
-	/**
-	 * 
-	 * @param rule Ԥ��Ĺ����
-	 * @param c Ԥ����ַ�ֵ
-	 * @return Ԥ����
-	 */
 	public static char predict(int rule, char c){
 		isPredict= true;
 		switch (rule) {
@@ -99,7 +90,7 @@ public class Task3  extends Task2{
 	
 	public static void rules(int rule){
 		resetParams();
-		System.out.printf("\n����%d\n", rule);
+		System.out.printf("\n规则%d\n", rule);
 		for(int i= 0; i< cs.length; i++ ){
 			switch (rule) {
 			case 1:
@@ -128,7 +119,7 @@ public class Task3  extends Task2{
 			rules(i);
 			total+= re;
 		}
-		System.out.println("\n�ܺͣ�"+(total));
+		System.out.println("\n总和"+(total));
 		total= 0;
 	}
 	
