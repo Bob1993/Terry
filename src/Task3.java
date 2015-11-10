@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 
  * @author Bob
  */
-public class Task3  extends Task2{
+public class Task3  extends Task2Base {
 	static String inputString, translatedString;
 	static int total;
 	static char[] cs;
@@ -109,8 +109,8 @@ public class Task3  extends Task2{
 			}
 		}
 		System.out.println(translatedString);
-		Task2.operate(translatedString);
-		System.out.printf("\n= %d\t Next:\tb%s%d   o%s%d", re, predict(rule, 'b'),  source[i][j], predict(rule, 'o') , source[i][j]);
+		operate(translatedString);
+        printFormat(predict(rule, 'b'), predict(rule, 'o'));
 	}
 	
 	public static void translate(){

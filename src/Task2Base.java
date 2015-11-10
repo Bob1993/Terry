@@ -5,7 +5,7 @@ import java.util.Scanner;
  * 当第二行出现+时指針返回第一行右邉第一个数字
  * @author Bob
  */
-public class Task2 {
+public class Task2Base {
 	static int i,j,k,re;//i,j定义当前指针位置,	k操作符数组当前所在位置,	re返回结果值
 	static boolean descReset= false;//控制双－号出现是是否重置的标记量
 	static char[] cs;//接收输入符
@@ -68,6 +68,14 @@ public class Task2 {
 			}
 		}
 	}
+
+    public static void printFormat(char b, char o){
+        System.out.printf("\n= %d\t Next:\tb%s%d   o%s%d", re, b,  source[i][j], o , source[i][j]);
+    }
+
+    public static void printFormat(){
+        System.out.printf("\n= %d\t Next:\t%d", re,source[i][j]);
+    }
 	
 	public static void main(String[] args) {
 		Scanner input= new Scanner(System.in);
