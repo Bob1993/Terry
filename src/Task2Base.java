@@ -9,11 +9,15 @@ public class Task2Base {
 	static int i,j,k,re;//i,j定义当前指针位置,	k操作符数组当前所在位置,	re返回结果值
 	static boolean descReset= false;//控制双－号出现是是否重置的标记量
 	static char[] cs;//接收输入符
-	static int[][] source= {//源数据
+    static int[][] source= {//源数据
 			{2, 3 ,4,  5, 7, 9, 12, 18, 24, 30, 42, 54},
 			{4, 6, 8, 10, 14 ,18, 24, 36, 48, 60, 84, 108}
 			};
-	
+
+    public static void setSource(int[][] source1){
+        source= source1;
+    }
+
 	public static void descMove()//-操作的移动规则
 	{		
 			if (!descReset ) {

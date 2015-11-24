@@ -48,6 +48,16 @@
   只需要直接更换继承的基类即可完成翻译功能和执行功能的嫁接
   
   
+## Task 6:
+> 1. [使用树的遍历实现全排列](http://airu.iteye.com/blog/1930391)  
+  ![](http://dl2.iteye.com/upload/attachment/0088/5829/393f316f-8378-3ecf-915c-6fa29c299898.png)  
+  1. [使用递归来实现全排列](http://blog.csdn.net/exceptional_derek/article/details/8750375)  
+  ![](http://img.my.csdn.net/uploads/201304/02/1364871832_5712.jpg)
+  *递归实现的总结*
+    递归就是树的一种实现方式(使用队列以及栈同样可以实现树),我们在这里的两种方案都是使用了递归,
+    * 第一种是考虑到全排列恰好可以用树来实现,而我们只需要对这个树进行遍历,即可得出最终结果
+    * 第二种的思维导图其实就是树,只不过这里并没有使用树的遍历,而是采用了传统的递归来解决问题
+    
 #<center>congratulations!!!
  
  	在此真诚感谢Terry赞助我买了一个MacBook pro  

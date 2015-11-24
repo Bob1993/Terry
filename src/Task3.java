@@ -6,7 +6,6 @@ import java.util.Scanner;
  *第三条：与前一符号不同为＋，相同为－
  *第四条：相同为＋，不同为－
  * source[i][j];  为指针所在的下一个预测值
- * 
  * @author Bob
  */
 public class Task3  extends Task2Base {
