@@ -8,7 +8,7 @@ import java.util.*;
  * 	来对规则进行循环操作
  * @author Bob
  */
-public class Task4 extends Task5Base {
+public class Task4 extends Task2BaseAnother {
 	static String inputString, translatedString;
 	static int total;
 	static char[] inputChars;
