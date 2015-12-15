@@ -51,6 +51,7 @@
 ## Task 6:
 > 1. [使用树的遍历实现全排列](http://airu.iteye.com/blog/1930391)  
   ![](http://dl2.iteye.com/upload/attachment/0088/5829/393f316f-8378-3ecf-915c-6fa29c299898.png)  
+  
   1. [使用递归来实现全排列](http://blog.csdn.net/exceptional_derek/article/details/8750375)  
   ![](http://img.my.csdn.net/uploads/201304/02/1364871832_5712.jpg)
   *递归实现的总结*
