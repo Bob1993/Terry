@@ -1,5 +1,3 @@
-import com.sun.org.apache.xpath.internal.functions.FuncFalse;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
