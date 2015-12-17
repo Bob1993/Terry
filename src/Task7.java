@@ -42,7 +42,7 @@ public class Task7 {
                 isAddedTop = true;
                 re -= 1;
                 System.out.print("-"+ 1);
-                System.out.printf("current k %d \t\t i %d\t j %d \t re %d\n", k + 1, i, j, re);
+//                System.out.printf("current k %d \t\t i %d\t j %d \t re %d\n", k + 1, i, j, re);
                 return;
             }else {
                 gen.add(gen.get(i) + 1);
@@ -57,7 +57,7 @@ public class Task7 {
         } else {
             j = pointer;
         }
-        System.out.printf("current k %d \t\t i %d\t j %d \t re %d\n", k + 1, i, j, re);
+//        System.out.printf("current k %d \t\t i %d\t j %d \t re %d\n", k + 1, i, j, re);
     }
 
     public static void addMove() {
@@ -81,7 +81,7 @@ public class Task7 {
                 j--;
             }
         }
-        System.out.printf("current k %d \t\t i %d\t j %d \t re %d\n", k + 1, i, j, re);
+//        System.out.printf("current k %d \t\t i %d\t j %d \t re %d\n", k + 1, i, j, re);
     }
 
     public static void resetGen() {
@@ -107,6 +107,7 @@ public class Task7 {
                 descMove();
             }
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {

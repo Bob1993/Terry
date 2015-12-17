@@ -8,7 +8,7 @@ import java.util.*;
  * 	来对规则进行循环操作
  * @author Bob
  */
-public class Task4 extends Task2BaseAnother {
+public class Task4 extends Task7 {
 	static String inputString, translatedString;
 	static int total;
 	static char[] inputChars;
@@ -48,7 +48,7 @@ public class Task4 extends Task2BaseAnother {
 		}
 		System.out.println(translatedString);
 		operate(translatedString);
-		printFormat();
+//		printFormat();
 	}
 	
 	public static void translate(){
@@ -67,7 +67,7 @@ public class Task4 extends Task2BaseAnother {
 	}
 	
 	public static void resetParams(){
-		re= 0; i= 0; j= 0;	k= 0; descReset= false;
+		re= 0; i= 0; j= 0;	k= 0; //descReset= false;
 		translatedString= "";
 	}
 	
